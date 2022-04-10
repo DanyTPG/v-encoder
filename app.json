@@ -27,8 +27,7 @@
   },
    "FFMPEG_DOWNLOAD_URL": {
       "description": "",
-      "value": "https://www.ffmpeg.org/releases/ffmpeg-4.4.1.tar.xz",
-      "required": false
+      "value": "https://www.ffmpeg.org/releases/ffmpeg-4.4.1.tar.xz"
   }
  },
  "buildpacks": [
