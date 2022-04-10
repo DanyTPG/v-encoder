@@ -1,0 +1,29 @@
+{
+ "name": "video encoder",
+ "description": "encode videos",
+
+ "repository": "https://github.com/DanyTPG/v-encoder",
+ "env": {
+   "API_ID": {
+      "description": "Your Telegram API ID.",
+      "value": ""
+  },
+   "API_HASH": {
+      "description": " Your Telegram API hash.",
+      "value": ""
+  },
+   "BOT_TOKEN": {
+      "description": "Your Bot token, as a string",
+      "value": ""
+  },
+   "SUDO_USERS": {
+      "description": "sudo user ids",
+      "value": "",
+  },
+   "DOWNLOAD_DIR": {
+      "description": "",
+      "value": "",
+      "required": false
+  }
+ }
+}
