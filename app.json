@@ -24,6 +24,11 @@
       "description": "",
       "value": "",
       "required": false
+  },
+   "FFMPEG_DOWNLOAD_URL": {
+      "description": "",
+      "value": "",
+      "required": false
   }
  },
  "buildpacks": [
