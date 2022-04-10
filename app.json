@@ -18,7 +18,7 @@
   },
    "SUDO_USERS": {
       "description": "sudo user ids",
-      "value": "",
+      "value": ""
   },
    "DOWNLOAD_DIR": {
       "description": "",
