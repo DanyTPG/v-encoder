@@ -49,7 +49,7 @@ def encode(filepath):
     else:
         audio_opts = '-c:a libopus -b:a 128k'
     #call(['ffmpeg', '-i', filepath] + video_opts.split() + opt1.split() + opt2.split() + opt3.split() + audio_opts.split() + [output_filepath])
-    call(['ffmpeg', '-i', filepath, audio_opts, video_opts , opt1 , opt2 , opt3  ,output_filepath)
+    call('ffmpeg', '-i', filepath, audio_opts, video_opts , opt1 , opt2 , opt3  ,output_filepath)
     os.remove(filepath)
     return output_filepath
 
